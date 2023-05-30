@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Aleksandra is a front-end developer based in London, United Kindgdom."
+    />
+    <title>Front-end developer - Aleksandra Jablonska</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,13 +35,15 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/" class="d-none d-md-block">Aleksandra Jablonska</a>
-        <a href="/" class="d-block d-md-none">Aleksandra</a>
+        <a href="/" class="d-none d-md-block" title="Homepage"
+          >Aleksandra Jablonska</a
+        >
+        <a href="/" class="d-block d-md-none" title="Homepage">Aleksandra</a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Home">Home</a></li>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/work.html" title="Work">Work</a></li>
+          <li><a href="/contact.html" title="Contact">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -46,7 +52,9 @@
       <h1>Aleksandra Jablonska</h1>
       <h2 class="mb-5">Front-end developer based in Europe</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" title="Contact me" class="btn btn-branding"
+          >Contact me</a
+        >
       </div>
     </div>
     <div class="container">
@@ -72,6 +80,7 @@
             </p>
             <a
               href="https://stupendous-bubblegum-e0f501.netlify.app/"
+              title="Launch Weather App"
               target="_blank"
               class="btn btn-branding-outline"
               >Launch project</a
@@ -92,6 +101,7 @@
             </p>
             <a
               href="https://world-clock-myproject.netlify.app/"
+              title="Launch World Clock App"
               target="_blank"
               class="btn btn-branding-outline"
               >Launch project</a
@@ -131,26 +141,48 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              title="Contact me"
+              class="btn btn-branding mt-3"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:thatsaleksandra@gmail.com" class="email-link"
+          <a
+            href="mailto:thatsaleksandra@gmail.com"
+            title="Email"
+            class="email-link"
             >thatsaleksandra@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/aleksandra-gab" target="_blank">
+          <a
+            href="https://github.com/aleksandra-gab"
+            title="GitHub"
+            target="_blank"
+          >
             <i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://instagram.com/aleksaxdra" target="_blank"
+          <a
+            href="https://instagram.com/aleksaxdra"
+            title="Instagram"
+            target="_blank"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
+        <p class="text-center mt-5 text-muted">
+          🤍 This project was coded by Aleksandra Jablonska and it is
+          open-sourced on
+          <a href="https://github.com/aleksandra-gab/portfolio" target="_blank"
+            >GitHub.</a
+          >
+        </p>
       </footer>
     </div>
   </body>
