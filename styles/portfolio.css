@@ -191,6 +191,11 @@ footer .social-links a:hover {
   transition: all 100ms ease-in-out;
 }
 
+.link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
