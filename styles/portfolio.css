@@ -1,12 +1,21 @@
 :root {
   --branding-color: #ff5168;
-  --secondary-color: #fffbef;
+  --secondary-color: lightpink;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
 
 body {
   font-family: var(--default-font-family);
+}
+
+.name {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Knewave", cursive;
+  color: var(--secondary-color);
+  -webkit-text-stroke: 0.1px var(--branding-color);
 }
 
 h1,
@@ -16,12 +25,6 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-}
-
-h1 {
-  font-size: 96px;
-  font-weight: bold;
-  line-height: 1.5;
 }
 
 h2 {
@@ -38,7 +41,6 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
   text-align: center;
   padding: 80px 20px;
 }
