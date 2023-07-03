@@ -9,15 +9,6 @@ body {
   font-family: var(--default-font-family);
 }
 
-.name {
-  font-size: 96px;
-  font-weight: bold;
-  line-height: 1.5;
-  font-family: "Knewave", cursive;
-  color: var(--secondary-color);
-  -webkit-text-stroke: 0.1px var(--branding-color);
-}
-
 h1,
 h2,
 h3,
@@ -57,6 +48,15 @@ p {
   line-height: 1.5;
   font-size: 24px;
   color: #272142;
+}
+
+.name {
+  font-size: 96px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: "Knewave", cursive;
+  color: var(--secondary-color);
+  -webkit-text-stroke: 0.1px var(--branding-color);
 }
 
 .btn-branding {
@@ -117,12 +117,16 @@ p {
   font-family: var(--default-font-family);
 }
 
-.contern p {
+.content p {
   font-size: 14px;
 }
 
 .content {
   margin: 30px;
+}
+
+.work-img {
+  aspect-ratio: 1 / 1;
 }
 
 nav {
